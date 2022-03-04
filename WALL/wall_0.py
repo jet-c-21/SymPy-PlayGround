@@ -5,5 +5,9 @@ GitHub: https://github.com/jet-chien
 Create Date: 2022/3/4
 """
 import sympy as sp
+from pprint import pp
 
-print(sp.sqrt(2))
+x = sp.Symbol('x')
+eq2 = sp.Eq(sp.cos(x) - sp.sin(x), 0)
+print(type(eq2))
+pp(dir(eq2))
