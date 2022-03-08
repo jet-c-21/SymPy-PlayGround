@@ -1,3 +1,4 @@
+# main pack
 sympy
 numpy
 matplotlib
